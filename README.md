@@ -7,7 +7,7 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
 
 ---
 
-## 🛠️ Technology Used
+## Technology Used
 
 - **Blockchain Technology (Ethereum):**  
   Ensures the immutability and security of prescription and delivery records. Every step in the medication lifecycle — from prescription issuance by the doctor, validation by the pharmacist, to delivery confirmation — is recorded on the blockchain, providing full transparency and traceability.
@@ -35,101 +35,40 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
   - **Visual Studio Code:** Main IDE for development.  
   - **GitHub:** Version control and collaborative code management.  
   - **Jira:** Project management and sprint planning.
-
----
-
-## ⚙️ Setting up Local Development
-
-### **Step 1: Installation and Setup**
-1. **VSCode:** Download and install from [https://code.visualstudio.com](https://code.visualstudio.com)  
-2. **Node.js:** Download from [https://nodejs.org](https://nodejs.org)  
-   Verify installation:
-   ```bash
-   node -v
-   npm -v
-Git: Download from https://git-scm.com
-Verify installation:
-
+ 
+    ### Setting up Local Development #### Step 1: Installation and Setup 1. **VSCode**: Download from [VSCode website](https://code.visualstudio.com/). 2. **Node.js**: Download the latest version from [Node.js website](https://nodejs.org/). After installation, verify the version by running the following command in the terminal:
 bash
-نسخ الكود
-git --version
-Ganache: Download and install from https://trufflesuite.com/ganache
-
-MetaMask: Install from the Chrome Web Store or Firefox Add-ons.
-
-Step 2: Create, Compile & Deploy Smart Contract
-Open VSCode: Launch VSCode and open the terminal using Ctrl + '.
-
-Clone the Project:
-
+    node -v
+3. **Git**: Download from [Git website](https://git-scm.com/downloads). Verify the version by running the following command:
 bash
-نسخ الكود
-git clone https://github.com/YourUsername/2025_GP_29.git
-cd 2025_GP_29
-Install Truffle:
-
+    git --version
+4. **Ganache**: Download from [Ganache official website](https://www.trufflesuite.com/ganache). 5. **MetaMask**: Install MetaMask as a browser extension from the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) or [Firefox Add-ons store](https://addons.mozilla.org/). --- #### Step 2: Create, Compile & Deploy Smart Contract 1. **Open VSCode**: Launch VSCode and open the terminal using Ctrl + '. 2. **Clone the Project**:
 bash
-نسخ الكود
-npm install -g truffle
-Install Project Dependencies:
-
+    git clone https://github.com/norah-mohammed/2024-25_GP_25.git
+3. **Install Truffle**:
 bash
-نسخ الكود
-npm install
-Compile the Smart Contract:
-
+    npm install -g truffle
+4. **Install Project Dependencies**:
 bash
-نسخ الكود
-truffle compile
-Deploy the Smart Contract:
-
-Open Ganache and create a new workspace.
-
-Copy the RPC server address (e.g., HTTP://127.0.0.1:7545).
-
-Update truffle-config.js with the RPC address.
-
-Deploy the contract:
-
+    npm i
+##### Project Structure Overview: - **contracts**: Contains Solidity smart contracts. The Migrations.sol contract is used for managing migrations. - **migrations**: JavaScript files to deploy the smart contracts to the blockchain. - **test**: JavaScript test files for smart contract testing. - **truffle-config.js**: Configuration file for the Truffle project, including blockchain network settings. - **package.json**: Contains project dependencies and scripts. - **package-lock.json**: Automatically generated file listing exact dependency versions. 5. **Compile the Smart Contract**:
 bash
-نسخ الكود
-truffle migrate --reset
-Step 3: Run the Application
-Run the Frontend
+    truffle compile
+6. **Deploy the Smart Contract**: - Open Ganache and create a new workspace. - Copy the RPC server address. - Update the truffle-config.js file with the Ganache RPC address. - Run the following command in the terminal to deploy the contract:
 bash
-نسخ الكود
-cd frontend
-npm install
-npm start
-The DApp will be hosted at: http://localhost:3000
-
-Run the Backend
+     truffle migrate
+--- #### Step 3: Run DApp 1. **Navigate to the supply-chain-app Folder**:
 bash
-نسخ الكود
-cd backend
-npm install
-npm start
-Step 4: Connect MetaMask with Ganache
-Start Ganache: Open Ganache and note the RPC server URL and port.
-
-Configure MetaMask:
-
-Go to MetaMask → Settings → Networks → Add Network.
-
-Enter the Ganache RPC URL and port number.
-
-Save the settings.
-
-Import Account:
-
-In Ganache, copy the private key of an account.
-
-In MetaMask, click the three dots → Import Account → Paste the private key.
-
-Step 5: (Optional) IoT Simulation
-If your project includes IoT scripts:
-
+    cd supply-chain-app
+2. **Install All Dependencies**:
 bash
-نسخ الكود
-cd iot
-# Run IoT simulation scripts based on project instructions
+    npm i
+3. **Install Web3**:
+bash
+    npm install --save web3
+4. **Run the DApp**:
+bash
+    npm start
+The DApp will be hosted at http://localhost:3000. --- #### Step 4: Connect MetaMask with Ganache 1. **Start Ganache**: Open the Ganache application and note the RPC server URL and port number. 2. **Connect MetaMask**: - Open MetaMask in your browser and click on the network dropdown in the top-right corner. - Select "Custom RPC" and enter the Ganache RPC URL and port number. - Click "Save". 3. **Import Account**: - In Ganache, go to the "Accounts" tab, copy the private key of the first account. - In MetaMask, click on the three dots in the top-right corner, select "Import Account," and paste the private key. link to the repositry: https://github.com/norah-mohammed/2024-25_GP_25.git ---
+
+
