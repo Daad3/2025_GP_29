@@ -2,7 +2,6 @@
 ## Blockchain-Based Prescription and Medication Delivery System  
 
 **TrustDose** is a blockchain-based platform designed to enhance transparency, security, and efficiency in prescription management and medication delivery. The system connects doctors, pharmacists, logistics providers, and patients through a secure and decentralized ledger, ensuring that every stage of the medication lifecycle—from prescription issuance to patient receipt—is accurately tracked and tamper-proof.  
-
 By integrating **IoT sensors**, TrustDose provides real-time monitoring for temperature-sensitive medications such as insulin and vaccines, ensuring they are stored and delivered under optimal conditions.  
 
 ---
@@ -36,7 +35,7 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
   - **GitHub:** Version control and collaborative code management.  
   - **Jira:** Project management and sprint planning.
 
-    ### Setting up Local Development
+### Setting up Local Development
 
 #### Step 1: Installation and Setup
 
@@ -47,6 +46,19 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
    ```bash
    node -v
    npm -v
+3. **Git: Download from Git website
+   Verify installation:
+   ```bash
+   git --version
+4. **Ganache: Download from Ganache official website
+5. **MetaMask: Install MetaMask as a browser extension from the Chrome Web Store or Firefox Add-ons store.
+   ---
+   
+
+
+
+
+   
  
    
 
