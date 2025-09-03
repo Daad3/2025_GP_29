@@ -37,6 +37,81 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
   - **GitHub:** Version control and collaborative code management.  
   - **Jira:** Project management and sprint planning.
 
+###Setting up Local Development
+
+1. Step 1: Installation and Setup
+VSCode: Download from VSCode website.
+
+Node.js: Download the latest version from Node.js website. After installation, verify the version by running the following command in the terminal:
+
+node -v
+Git: Download from Git website. Verify the version by running the following command:
+
+git --version
+Ganache: Download from Ganache official website.
+
+MetaMask: Install MetaMask as a browser extension from the Chrome Web Store or Firefox Add-ons store.
+
+Step 2: Create, Compile & Deploy Smart Contract
+Open VSCode: Launch VSCode and open the terminal using Ctrl + '.
+
+Clone the Project:
+
+git clone https://github.com/norah-mohammed/2024-25_GP_25.git
+Install Truffle:
+
+npm install -g truffle
+Install Project Dependencies:
+
+npm i
+Project Structure Overview:
+contracts: Contains Solidity smart contracts. The Migrations.sol contract is used for managing migrations.
+migrations: JavaScript files to deploy the smart contracts to the blockchain.
+test: JavaScript test files for smart contract testing.
+truffle-config.js: Configuration file for the Truffle project, including blockchain network settings.
+package.json: Contains project dependencies and scripts.
+package-lock.json: Automatically generated file listing exact dependency versions.
+Compile the Smart Contract:
+
+truffle compile
+Deploy the Smart Contract:
+
+Open Ganache and create a new workspace.
+Copy the RPC server address.
+Update the truffle-config.js file with the Ganache RPC address.
+Run the following command in the terminal to deploy the contract:
+truffle migrate
+Step 3: Run DApp
+Navigate to the supply-chain-app Folder:
+
+cd supply-chain-app
+Install All Dependencies:
+
+npm i
+Install Web3:
+
+npm install --save web3
+Run the DApp:
+
+npm start
+The DApp will be hosted at http://localhost:3000.
+
+Step 4: Connect MetaMask with Ganache
+Start Ganache: Open the Ganache application and note the RPC server URL and port number.
+
+Connect MetaMask:
+
+Open MetaMask in your browser and click on the network dropdown in the top-right corner.
+Select "Custom RPC" and enter the Ganache RPC URL and port number.
+Click "Save".
+Import Account:
+
+In Ganache, go to the "Accounts" tab, copy the private key of the first account.
+In MetaMask, click on the three dots in the top-right corner, select "Import Account," and paste the private key.
+
+
+
+
 
 
 
