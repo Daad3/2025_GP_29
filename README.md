@@ -1,4 +1,4 @@
-# 2025_GP_29: TrustDose
+##2025_GP_29: TrustDose
 
 ## Blockchain-Based Prescription and Medication Delivery System
 
@@ -6,14 +6,14 @@
 
 By integrating **IoT sensors**, TrustDose provides real-time monitoring for temperature-sensitive medications such as insulin and vaccines, ensuring they are stored and delivered under optimal conditions.
 
----
 
-## 🛠️ Technology Used
+
+##  Technology Used
 - **Blockchain:** Ethereum, Solidity, Truffle, Ganache, Web3.js  
 - **Frontend:** ReactJS, Tailwind CSS  
 - **Backend:** Node.js  
 - **IoT:** Arduino, ESP32, DHT11 sensor  
 - **Development Tools:** MetaMask, Visual Studio Code, GitHub, Jira  
 
----
+
 
