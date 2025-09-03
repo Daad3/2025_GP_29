@@ -1,6 +1,6 @@
 # Project Authors and Contributors
 
----
+
 
 ## Project Team
 - **Ftoon Fawaz Binkhattaf** - [GitHub Profile]()
@@ -9,7 +9,7 @@
 - **Aljawharah Sami Alsaab** - [GitHub Profile]()
 - **Daad Fahad Alali** - [GitHub Profile]()
 
----
+
 
 ## Supervised by
 - **Dr. Nourah Alrossais** - Project Supervisor
