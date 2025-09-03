@@ -50,8 +50,8 @@ By integrating **IoT sensors**, TrustDose provides real-time monitoring for temp
    Verify installation:
    ```bash
    git --version
-4. **Ganache: Download from Ganache official website
-5. **MetaMask: Install MetaMask as a browser extension from the Chrome Web Store or Firefox Add-ons store.
+4. Ganache: Download from Ganache official website
+5. MetaMask: Install MetaMask as a browser extension from the Chrome Web Store or Firefox Add-ons store.
    ---
    
 
